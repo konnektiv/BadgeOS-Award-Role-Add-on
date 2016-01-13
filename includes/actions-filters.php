@@ -26,12 +26,10 @@ add_filter('badgeos_achievement_data_meta_box_fields', function($fields) {
 add_action('badgeos_award_achievement', function($user_id, $achievement_id){
 	$role = get_post_meta( $achievement_id, '_badgeos_award_role', true );
 
-	error_log("Got role:$role:$achievement_id");
 	if ($role && $role != 'none' ) {
 		$user = new WP_User( $user_id );
 
 		// Add role
-		error_log("Adding role:$role");
 		$user->add_role( $role );
 	}
 }, 10, 2);
