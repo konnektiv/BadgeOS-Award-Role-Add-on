@@ -1,18 +1,17 @@
 <?php
 /**
  * Plugin Name: BadgeOS Award Role Add-On
- * Plugin URI: http://www.konnektiv.de/
+ * Plugin URI: http://konnektiv.de/
  * Description: Allows adding a role to a user who has earned a BadgeOS achievement
  * Tags: buddypress
- * Author: konnektiv, Christoph Herbst
- * Version: 1.0.0
- * Author URI: https://konnektiv.de/
+ * Author: Konnektiv
+ * Version: 1.0.1
+ * Author URI: http://konnektiv.de/
  * License: GNU AGPL
  * Text Domain: badgeos-award-role
  */
-
 /*
- * Copyright © 2016 Konnektiv
+ * Copyright © 2016 Konnektiv, Christoph Herbst
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License, version 3,
@@ -52,7 +51,7 @@ class BadgeOS_Award_Role {
 	/**
 	 * Files to include for BadgeOS integration.
 	 *
-	 * @since  1.1.1
+	 * @since  1.0.0
 	 */
 	public function includes() {
 		if ( $this->meets_requirements() ) {
@@ -90,7 +89,7 @@ class BadgeOS_Award_Role {
 	 */
 	public static function meets_requirements() {
 
-		if ( class_exists('BadgeOS') && version_compare( BadgeOS::$version, '1.4.0', '>=' ) ) {
+		if ( class_exists( 'BadgeOS' ) && version_compare( BadgeOS::$version, '1.4.0', '>=' ) ) {
 			return true;
 		} else {
 			return false;
@@ -116,4 +115,5 @@ class BadgeOS_Award_Role {
 	}
 
 }
+
 new BadgeOS_Award_Role();
