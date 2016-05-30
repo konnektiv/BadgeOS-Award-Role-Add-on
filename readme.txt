@@ -49,5 +49,5 @@ BadgeOS is made available by [LearningTimes, LLC](http://www.learningtimes.com/ 
 3. Upload 'badgeos-award-role' to the '/wp-content/plugins/' directory
 4. Activate the plugin through the 'Plugins' menu in WordPress
 
-= 0.0.1 =
+= 1.0.0 =
 * Initial release

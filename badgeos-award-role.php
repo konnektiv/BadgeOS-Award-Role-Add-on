@@ -4,8 +4,8 @@
  * Plugin URI: http://www.konnektiv.de/
  * Description: Allows adding a role to a user who has earned a BadgeOS achievement
  * Tags: buddypress
- * Author: konnektiv
- * Version: 0.0.1
+ * Author: konnektiv, Christoph Herbst
+ * Version: 1.0.0
  * Author URI: https://konnektiv.de/
  * License: GNU AGPL
  * Text Domain: badgeos-award-role
