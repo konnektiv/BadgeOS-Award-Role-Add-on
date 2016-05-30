@@ -1,6 +1,6 @@
 === BadgeOS Award Role Add-on ===
-Contributors: Christoph Herbst
-Tags: badge, badges, openbadges, credly, OBI, mozilla, open badges, achievement, award, reward, engagement, submission, nomination, community, API, open credit, credit, plugin
+Contributors: Konnektiv, Christoph Herbst
+Tags: badge, badges, openbadges, credly, role, OBI, mozilla, open badges, achievement, award, reward, engagement, submission, nomination, community, API, open credit, credit, plugin
 Requires at least: WordPress 3.6.0, BadgeOS 1.4.0
 Tested up to: 4.3
 Stable tag: 0.0.1
