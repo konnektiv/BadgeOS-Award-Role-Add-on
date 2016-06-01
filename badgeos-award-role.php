@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: BadgeOS Award Role Add-On
- * Plugin URI: http://konnektiv.de/
+ * Plugin URI: https://wordpress.org/plugins/award-role-add-on-for-badgeos/
  * Description: Allows adding a role to a user who has earned a BadgeOS achievement
  * Tags: buddypress
  * Author: Konnektiv
